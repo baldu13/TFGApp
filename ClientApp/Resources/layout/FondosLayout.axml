@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:text="Fondo Público y Privado"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewTitleFondos" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewRondaFondos" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:text="Fondo Público: 100€"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewFPu" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    <TextView
+        android:text="Fondo Privado: 100€"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewFPr" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="60dp" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20000"
+        android:progress="10000"
+        android:id="@+id/seekBar" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="40dp" />
+    <Button
+        android:text="Confirmar"
+        android:layout_width="147.0dp"
+        android:layout_height="56.5dp"
+        android:layout_gravity="center"
+        android:id="@+id/confirmarFondos" />
+</LinearLayout>

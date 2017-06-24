@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">ExperimentsUC</string>
+    <string name="HintUsuario">Usuario</string>
+    <string name="HintPass">Password</string>
+    <string name="Agradecimiento">Gracias por participar</string>
+</resources>

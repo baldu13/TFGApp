@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:text="Esperando resultados..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewNumResultados" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:text="Tu aportación al Fondo público: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewFPu" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    <TextView
+        android:text="Tu aportación al Fondo privado: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewFPr" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:text="Aportación media al fondo público: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewTotalPublico" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    <TextView
+        android:text="Tus ganancias: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewResumen" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <Button
+        android:text="Actualizar"
+        android:layout_width="147.0dp"
+        android:layout_height="56.5dp"
+        android:layout_gravity="center"
+        android:id="@+id/actualizarResultados2" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp" />
+    <Button
+        android:text="Continuar"
+        android:layout_width="147.0dp"
+        android:layout_height="56.5dp"
+        android:layout_gravity="center"
+        android:id="@+id/continuarResultados2" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:text="Ganancias acumulados: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textViewGananciasAcumuladas" />
+</LinearLayout>

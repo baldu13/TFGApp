@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Bienvenido a ExperimentsUC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="34dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:layout_marginLeft="6dp" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="70dp" />
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <TextView
+            android:text="Usuario "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewUsuario"
+            android:layout_marginLeft="6dp" />
+        <EditText
+            android:id="@+id/usuarioInput"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintUsuario"
+            android:inputType="text" />
+    </TableRow>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="50dp" />
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <TextView
+            android:text="Contraseña "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPassword"
+            android:layout_marginLeft="6dp" />
+        <EditText
+            android:id="@+id/passInput"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintPass"
+            android:inputType="textPassword" />
+    </TableRow>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text=""
+        android:textColor="#FF0000"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textError"
+        android:gravity="center"
+        android:layout_gravity="center" />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/botonLog"
+        android:layout_width="120.0dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_gravity="center" />
+</LinearLayout>
